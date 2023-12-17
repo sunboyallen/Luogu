@@ -1,0 +1,3 @@
+m + av = ax
+m + bv = by
+v = (by - ax) / (b - a)
