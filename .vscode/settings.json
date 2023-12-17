@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "*.asm": "assembly",
-        "ostream": "cpp",
-        "iomanip": "cpp",
-        "iostream": "cpp",
-        "iosfwd": "cpp"
-    }
-}
