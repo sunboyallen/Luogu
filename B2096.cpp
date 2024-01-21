@@ -2,8 +2,6 @@
 
 using namespace std;
 
-// int a[200000];
-
 int freq[200000];
 
 int main() {

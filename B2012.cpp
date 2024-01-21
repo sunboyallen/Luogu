@@ -1,4 +1,3 @@
-#include <iomanip>
 #include <iostream>
 
 using namespace std;
@@ -6,6 +5,6 @@ using namespace std;
 int main() {
     double a, b;
     cin >> a >> b;
-    cout << fixed << setprecision(3) << b / a * 100 << "%" << endl;
+    printf("%.3f%%\n", b / a * 100);
     return 0;
 }

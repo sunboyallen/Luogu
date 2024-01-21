@@ -17,5 +17,5 @@ int main() {
     for (int i = 0; i <= n; i++) {
         e += 1.0 / factorial(i);
     }
-    printf("%.10lf\n", e);
+    printf("%.10f\n", e);
 }

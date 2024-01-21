@@ -14,5 +14,5 @@ int main() {
     for (int i = 0; i < 10; i++) {
         ans += a[i] * b[i];
     }
-    printf("%.1lf\n", ans);
+    printf("%.1f\n", ans);
 }

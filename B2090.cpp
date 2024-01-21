@@ -19,8 +19,8 @@ int main() {
             b4++;
         }
     }
-    printf("%.2lf%%\n", b1 / N * 100);
-    printf("%.2lf%%\n", b2 / N * 100);
-    printf("%.2lf%%\n", b3 / N * 100);
-    printf("%.2lf%%\n", b4 / N * 100);
+    printf("%.2f%%\n", b1 / N * 100);
+    printf("%.2f%%\n", b2 / N * 100);
+    printf("%.2f%%\n", b3 / N * 100);
+    printf("%.2f%%\n", b4 / N * 100);
 }

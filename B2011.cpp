@@ -1,12 +1,11 @@
-#include <iomanip>
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    int a, b;
+    double a, b;
     cin >> a >> b;
-    double c = a * 1.0 / b;
-    cout << fixed << setprecision(9) << c << endl;
+    double c = a / b;
+    printf("%.9f\n", c);
     return 0;
 }

@@ -25,7 +25,7 @@ int main() {
         }
     }
     double average = sum / (n - 2);
-    printf("%.2lf ", average);
+    printf("%.2f ", average);
     double max_delta = 0;
     for (int i = 0; i < n; i++) {
         if (i != min_index && i != max_index) {
@@ -34,5 +34,5 @@ int main() {
             }
         }
     }
-    printf("%.2lf\n", max_delta);
+    printf("%.2f\n", max_delta);
 }
