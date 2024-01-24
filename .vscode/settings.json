@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "*.asm": "assembly",
-        ".clang-format": "yaml",
-        "iostream": "cpp"
-    }
-}
